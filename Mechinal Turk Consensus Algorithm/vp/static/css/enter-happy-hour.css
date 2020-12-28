@@ -1,0 +1,49 @@
+.hidden {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.happy-hour-entry-container {
+    margin-top: 3rem;
+}
+
+.happy-hour-entry-container h6 {
+    margin-bottom: 0;
+}
+
+.happy-hour-entry-container a {
+    cursor: pointer;
+}
+
+.title-row {
+    margin-bottom: 8px;
+}
+
+.content-row {
+    margin-bottom: 16px;
+}
+
+.deal-value {
+    width: 60%;
+}
+
+.current-deal-row {
+    background-color: #c5eff7;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.remove-deal-icon {
+    cursor: pointer;
+    float: right;
+}
+
+.remove-deal-icon:hover {
+    color: #e74c3c;
+}
+
+.mark-updated-button {
+    float: right;
+}

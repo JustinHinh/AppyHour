@@ -1,0 +1,77 @@
+__author__ = 'michelleshu'
+import datetime
+
+'''
+constants.py
+Common constant values to be used app-wide
+'''
+
+# HIT Type Parameters
+HIT_TYPE_ID = 'HIT_TYPE_ID'
+TITLE = 'TITLE'
+DESCRIPTION = 'DESCRIPTION'
+ANNOTATION = 'ANNOTATION'
+KEYWORDS = 'KEYWORDS'
+LAYOUT_PARAMETER_NAMES = 'LAYOUT_PARAMETER_NAMES'
+LAYOUT_ID = 'LAYOUT_ID'
+MAX_ASSIGNMENTS = 'MAX_ASSIGNMENTS'
+PRICE = 'PRICE'
+BONUS = 'BONUS'
+DURATION = 'DURATION'
+LOCALE_REQUIRED = 'LOCALE_REQUIRED'
+LIFETIME = 'LIFETIME'
+
+# HIT Type Names
+FIND_HAPPY_HOUR = 'FIND_HAPPY_HOUR'
+
+# HIT Status
+REVIEWABLE = 'Reviewable'
+
+# Assignment Status
+SUBMITTED = 'Submitted'
+REJECTED = 'Rejected'
+
+# HIT Result Parameters
+DEALS_RESULT = 'deals-result'
+COMMENTS = 'comments'
+
+# Days of Week
+MONDAY = 'MONDAY'
+TUESDAY = 'TUESDAY'
+WEDNESDAY = 'WEDNESDAY'
+THURSDAY = 'THURSDAY'
+FRIDAY = 'FRIDAY'
+SATURDAY = 'SATURDAY'
+SUNDAY = 'SUNDAY'
+
+DAYS_OF_WEEK = {
+    MONDAY: 1,
+    TUESDAY: 2,
+    WEDNESDAY: 3,
+    THURSDAY: 4,
+    FRIDAY: 5,
+    SATURDAY: 6,
+    SUNDAY: 7
+}
+
+# Drink Categories
+BEER = 'BEER'
+WINE = 'WINE'
+LIQUOR = 'LIQUOR'
+
+DRINK_CATEGORY = {
+    BEER: 1,
+    WINE: 2,
+    LIQUOR: 3
+}
+
+# Deal Detail Data Types
+PRICE = 'PRICE'
+PERCENT_OFF = 'PERCENT OFF'
+PRICE_OFF = 'PRICE OFF'
+
+DEAL_DETAIL_TYPE = {
+    PRICE: 1,
+    PERCENT_OFF: 2,
+    PRICE_OFF: 3
+}
