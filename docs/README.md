@@ -1,1 +1,1 @@
-# appy-hour
+# appy-hour demo
